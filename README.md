@@ -1,4 +1,4 @@
-# SocialHub: A Modern React Social Media Platform
+# SocialHub: A Modern React Social Media Platform (with a json server and jsin db)
 
 Welcome to **SocialHub**, an engaging and dynamic React-based web application that brings the power of social networking to your fingertips! Built as part of an academic project for the Lev Academic Center's 2025 curriculum, SocialHub leverages cutting-edge React technologies and a RESTful API to deliver a seamless user experience for managing todos, posts, albums, and more. Whether you're a developer looking to explore modern React patterns or a user eager to interact with a sleek social platform, SocialHub has something for you!
 

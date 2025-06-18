@@ -1,0 +1,56 @@
+.todoActions>button {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: #f0b90b;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px 10px 10px 0;
+    padding: 0;
+}
+
+.todoActions>button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.todoText {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox {
+    appearance: none;
+    background-color: #2b2e4a;
+    border: 2px solid #f0b90b;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox:checked::after {
+    content: " ✔";
+    text-align: center;
+    color:#f0b90b ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.todoText span {
+    width: 100%;
+}
+
+.input {
+    margin-right: 10px;
+    resize: none;
+    width: 100%;
+    overflow-y: auto;
+}

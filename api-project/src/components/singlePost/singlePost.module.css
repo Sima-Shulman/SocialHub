@@ -1,0 +1,83 @@
+.commentsDiv {
+  position: relative;
+}
+
+.singlePost {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.singlePost:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.postContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postText {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 1rem;
+  width: 80%;
+}
+
+.postActions>button {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  background-color: #f0b90b;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px 10px 10px 0;
+  padding: 0;
+}
+
+/* .postActions>button :hover {
+  background-color: #fff;
+  color: #000;
+} */
+
+.input {
+  margin-right: 10px;
+  flex: 1;
+  resize: none;
+  width: 100%;
+}
+
+.postText>span {
+  margin: 2px;
+}
+
+.postActions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.viewCommetsBtnLink {
+  background-color: #1c1c28;
+  width: 129px;
+  padding: 0;
+  border-radius: 0;
+  margin: auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(184, 179, 179, 0.226);
+  z-index: 999;
+}

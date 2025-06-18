@@ -1,0 +1,104 @@
+.commentsContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1f1f2e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  color: #fff;
+}
+
+.commentsContainer h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.commentsContainer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 300px;
+  /* גובה מרבי של הרשימה */
+  overflow-y: auto;
+  /* הוספת גלילה אנכית */
+  border: 1px solid #ffd700;
+  /* צבע זהב לגבול */
+  border-radius: 4px;
+  background-color: #282846;
+  /* רקע כהה יותר */
+}
+
+.commentsContainer ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+.commentsContainer ul::-webkit-scrollbar-thumb {
+  background-color: #ffd700;
+  /* צבע זהב לגלילה */
+  border-radius: 4px;
+}
+
+.commentsContainer ul::-webkit-scrollbar-thumb:hover {
+  background-color: #e5b800;
+  /* צבע זהב כהה יותר בגלילה */
+}
+
+.commentsContainer li {
+  margin: 10px 0;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #1f1f2e;
+  color: #fff;
+}
+
+.commentsContainer li:last-child {
+  border-bottom: none;
+}
+
+.commentActionBtn button {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  background-color: #f0b90b;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px 10px 10px 0;
+  padding: 0;
+}
+
+.commentActionBtn:disabled {
+  background-color: #555;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.commentsContainer input,
+.commentsContainer textarea {
+  width: calc(100% - 24px);
+  padding: 10px;
+  margin: 5px auto;
+  border: 1px solid #ffd700;
+  border-radius: 4px;
+  background-color: #282846;
+  color: #fff;
+  resize: none;
+}
+
+.addButton {
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.addButton:hover {
+  background-color: #f0b90b;
+}

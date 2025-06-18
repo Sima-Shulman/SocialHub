@@ -1,0 +1,90 @@
+.albumsContainer {
+  padding: 20px;
+  background-color: #1f1f2e;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  width: 50vw;
+  text-align: left;
+}
+
+.albumsButtons {
+  margin-bottom: 20px;
+}
+
+.albumsSearchContainer {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.albumsSearchInput {
+  padding: 8px;
+  border: 1px solid #ffd700;
+  border-radius: 4px;
+  width: 80%;
+  background-color: #282846;
+  color: #fff;
+}
+
+.albumsSearchButton {
+  padding: 8px 12px;
+  background-color: #ffd700;
+  color: #1f1f2e;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.albumsSearchButton:hover {
+  background-color: #e5b800;
+}
+
+.albumsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.albumsListItem {
+  margin-bottom: 10px;
+  background-color: #1c1c28;
+  border: 1px solid #ffd700;
+  border-radius: 4px;
+  text-align: left;
+}
+.albumsListItem button{
+  margin:  10px;
+}
+.addAlbumContainer {
+  margin: 20px 0;
+}
+
+.albumsSearchButton,
+.addAlbumButton {
+  background-color: #f0b90b;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px 10px 10px 0;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.albumsSearchButton:hover,
+.addAlbumButton:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.addAlbumInput {
+  padding: 8px;
+  border: 1px solid #ffd700;
+  border-radius: 4px;
+  background-color: #282846;
+  color: #fff;
+}

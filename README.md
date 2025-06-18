@@ -35,7 +35,18 @@ The project follows a modular structure for maintainability and scalability:
 - **Local JSON Server**: A `db.json` file mimicking the `jsonplaceholder` API for local development.
 - **Organized Codebase**: Logical division of components, hooks, and services for clarity.
 
-project-root/├── api-project/│   ├── public/│   ├── src/│   │   ├── components/     # Reusable UI components│   │   └── App.js          # Root component with routing├── json-server/            # Local JSON-Server DB│   ├── db.json│   ├── package.json├── README.md└── .gitignore
+project-root/
+
+│── api-project/
+│ ├── public/
+│ ├── src/
+│ │ ├── components/ # Reusable UI components
+│ │ └── App.js # Root component with routing
+│── json-server/ # Local JSON-Server DB
+│ ├── db.json
+│ ├── package.json
+├── README.md
+└── .gitignore
 
 ## 🌟 Getting Started
 

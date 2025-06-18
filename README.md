@@ -29,6 +29,18 @@ Separated Concerns: Distinct files for React components, JavaScript utilities, a
 Local JSON Server: A db.json file mimicking the jsonplaceholder API for local development.
 Organized Codebase: Logical division of components, hooks, and services for clarity.
 
+project-root/
+│── api-project/
+│  ├── public/
+│  ├── src/
+│  │   ├── components/     # Reusable UI components
+│  │   └── App.js          # Root component with routing
+│── json-server/            # Local JSON-Server DB
+│  ├── db.json            
+│  ├── package.json
+├── README.md
+└── .gitignore
+
 🌟 Getting Started
 Ready to dive into SocialHub? Follow these steps to set up the project locally:
 Prerequisites
@@ -75,18 +87,6 @@ SocialHub tackles advanced React challenges to elevate the user experience:
 State Persistence: Maintains app state across browser refreshes using local storage.
 Data Caching: Reduces redundant API calls with client-side caching mechanisms.
 Access Control: Prevents unauthorized access to other users' data, ensuring privacy.
-
-project-root/
-│── api-project/
-│  ├── public/
-│  ├── src/
-│  │   ├── components/     # Reusable UI components
-│  │   └── App.js          # Root component with routing
-│── json-server/            # Local JSON-Server DB
-│  ├── db.json            
-│  ├── package.json
-├── README.md
-└── .gitignore
 
 
 📚 Acknowledgments
